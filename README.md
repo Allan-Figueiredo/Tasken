@@ -1,7 +1,10 @@
 
-# Testes Tasken
+# Desafio Tasken
 
-Processo seletivo da empresa Tasken.
+Desafio técnico implementado para o processo seletivo da empresa Tasken.
+
+Candidato: Allan Gonsalves de Figueiredo
+
 
 ## Tecnologias Utilizadas
 
