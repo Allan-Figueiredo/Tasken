@@ -31,6 +31,11 @@ const rl = readline.createInterface({
 // Faz uma pergunta ao usuário e usa o valor informado para chamar a função
 rl.question("Informe um número: ", (input) => {
     const numero = parseInt(input); // Converte a entrada para um número inteiro
+    if (isNaN(numero)) {
+        console.log('Você deve informar um número');
+
+        rl.close();
+    }
     imprimirLinhas(numero); // Chama a função para imprimir as linhas
     rl.close();
 });
